@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>{% block title %}My Django Website{% endblock %}</title>
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+<header>
+<h1>My Django Website</h1>
+</header>
+
+<nav>
+<a href="/">Home</a>
+<a href="/about/">About Us</a>
+<a href="/contact/">Contact Us</a>
+</nav>
+
+<div class="container">
+
+{% block content %}
+{% endblock %}
+
+</div>
+
+<footer>
+<p>© 2026 My Website</p>
+<p>Developed by Bhavana</p>
+</footer>
+
+</body>
+
+</html>
