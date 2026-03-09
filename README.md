@@ -33,7 +33,13 @@ All pages inherit the same layout and use **CSS for styling**.
 * Git & GitHub
 
 ---
+## Requirements
 
+- Python 3.x
+- Django
+- Git
+- 
+---
 ## Project Structure
 
 ```
